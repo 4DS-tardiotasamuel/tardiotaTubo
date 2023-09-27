@@ -19,8 +19,7 @@ public class Tubo {
 
     //2πrh + 2πr^2 formula superficie
     public float superficie(){
-        float sup = 0;
-        sup = (float)(2*3.14*raggio*altezza) + (float)(2*3.14*Math.pow(raggio, 2));
+        float sup = (float)(2*3.14*raggio*altezza) + (float)(2*3.14*Math.pow(raggio, 2));
         return sup;
     }
 
