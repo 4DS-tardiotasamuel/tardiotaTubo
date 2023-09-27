@@ -25,6 +25,8 @@ public class MainTubo {
             }
         }while(!check);
 
-        System.out.println(tb.superficie());
+        System.out.println("La superficie del tubo e' pari a: "+ tb.superficie() + "cm^2");
+        System.out.println("Il volume del tubo e' pari a: "+ tb.volume() + "cm^2");
+
     }
 }
