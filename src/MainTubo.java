@@ -25,6 +25,6 @@ public class MainTubo {
             }
         }while(!check);
 
-        System.out.println(tb.Superficie());
+        System.out.println(tb.superficie());
     }
 }

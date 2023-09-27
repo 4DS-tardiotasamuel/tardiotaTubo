@@ -8,10 +8,14 @@ public class Tubo {
         this.altezza = a;
     }
 
-    //V=πr2h formula volume
+    //V=πr^2h formula volume
+    public float volume(){
+        float v = (float)(3.14*Math.pow(raggio, 2)*altezza);
+        return v;
+    }
 
-    //2πrh + 2πr2 formula superficie
-    public float Superficie(){
+    //2πrh + 2πr^2 formula superficie
+    public float superficie(){
         float sup = 0;
         sup = (float)(2*3.14*raggio*altezza) + (float)(2*3.14*Math.pow(raggio, 2));
         return sup;
